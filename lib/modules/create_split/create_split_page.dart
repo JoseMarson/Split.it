@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:split_it/modules/create_split/create_split_controller.dart';
+import 'package:split_it/modules/create_split/steps/one/step_one_page.dart';
+import 'package:split_it/modules/create_split/steps/three/strep_three_page.dart';
+import 'package:split_it/modules/create_split/steps/two/step_two_page.dart';
+import 'package:split_it/modules/create_split/widgets/buttom_stepper_bar.dart';
+import 'package:split_it/modules/create_split/widgets/create_split_appbar.dart';
 import '../../theme/app_theme.dart';
 
 class CreateSplitPage extends StatefulWidget {
